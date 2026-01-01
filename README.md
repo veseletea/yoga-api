@@ -144,3 +144,4 @@ Aplicația vine cu 10 poziții de yoga pre-încărcate:
 ---
 
 Creat cu Spring Boot pentru a învăța dezvoltarea de aplicații Java.
+
