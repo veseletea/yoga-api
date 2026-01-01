@@ -132,6 +132,10 @@ public class HomeController {
                         </tr>
                     </table>
 
+                    <h2>Documentatie</h2>
+                    <p><a href="/swagger-ui.html">Swagger UI</a> - Documentatie interactiva API</p>
+                    <p><a href="/v3/api-docs">OpenAPI JSON</a> - Specificatia OpenAPI 3.0</p>
+
                     <h2>Resurse</h2>
                     <p><a href="/h2-console">H2 Database Console</a> (JDBC URL: <code>jdbc:h2:mem:yogadb</code>, user: <code>sa</code>)</p>
 
