@@ -4,6 +4,7 @@ REST API pentru gestionarea unui catalog de poziții yoga, construit cu **Java**
 
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=flat-square&logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-green?style=flat-square&logo=springboot)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue?style=flat-square&logo=docker)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
 ## Despre proiect
@@ -14,6 +15,8 @@ Acest proiect este o aplicație simplă pentru a învăța conceptele fundamenta
 - **Spring Data JPA** - Persistență date
 - **H2 Database** - Bază de date în memorie
 - **Bean Validation** - Validare input
+- **OpenAPI/Swagger** - Documentație API
+- **Docker** - Containerizare
 
 ## Rulare
 
@@ -32,6 +35,23 @@ mvn spring-boot:run
 ```
 
 Aplicația pornește la: **http://localhost:8080**
+
+### Rulare cu Docker
+
+```bash
+# Build și pornire
+docker-compose up --build
+
+# Sau manual
+docker build -t yoga-api .
+docker run -p 8080:8080 yoga-api
+```
+
+## Documentație API (Swagger)
+
+Documentația interactivă este disponibilă la:
+- **Swagger UI:** http://localhost:8080/swagger-ui.html
+- **OpenAPI JSON:** http://localhost:8080/v3/api-docs
 
 ## API Endpoints
 
